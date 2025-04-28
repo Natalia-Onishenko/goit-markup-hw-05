@@ -686,12 +686,17 @@ list-style: none;
             border: 1px solid rgba(46, 47, 66, 0.4);}
         
         
-           .checkbox-div input:checked+label .privacy {
-               background-color: #404bbf;
-               border: none;
-               fill: #F4F4FD;
-           }
-       
+                .checkbox-div input:checked+label .privacy {
+                    background-color: #404bbf;
+                }
+        
+                .checkbox-div input:checked+label .privacy svg {
+                    border: none;
+                }
+        
+                .checkbox-div input:checked+label .privacy svg use {
+                    fill: #F4F4FD;
+                }
      
 
         
