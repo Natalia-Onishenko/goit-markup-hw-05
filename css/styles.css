@@ -359,9 +359,7 @@ margin: 0 auto;
     background-color: #404BBF;
 }
 
-.team-soc {
-       
-    }
+
 
 .icons {
     fill:#f4f4fd;
@@ -599,6 +597,19 @@ list-style: none;
         .form-div {
             margin-bottom: 8px;
         }
+               
+        
+                .button-close:hover {
+                    background-color: #404bbf;
+                    border: none;
+                    fill: #ffffff;
+                }
+        
+                .button-close:focus {
+                    background-color: #404bbf;
+                    border: none;
+                    fill: #ffffff;
+                }
         .label {
             font-size: 12px;
             line-height: 1.17;
@@ -622,6 +633,9 @@ list-style: none;
             
 
         }
+        .input-styles:focus {
+            border-color: #4D5AE5;
+        }
         .input-svg {
             position: absolute;
             left: 16px;
@@ -630,6 +644,9 @@ list-style: none;
             transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         }
+                           .input-div:focus-within .input-svg {
+                               fill: #4D5AE5;
+                           }
         .textarea-div {
             margin-bottom: 16px;
            
@@ -663,17 +680,18 @@ list-style: none;
             align-items: center;
             justify-content: center;
             fill: transparent;
+        background-color: #404bbf;
+        border: none;
+        fill: #F4F4FD;
+        }
+        
+      .form-modal input:checked {
             background-color: #404bbf;
                 fill: #F4F4FD;
                 border: none;
         }
-        .terms {
 
-        }
-        input:checked.privacy {
-           
-
-        }
+        
         .chekbox-link {
             color: #4d5ae5;
         }
