@@ -686,7 +686,11 @@ list-style: none;
             border: 1px solid rgba(46, 47, 66, 0.4);}
         
         
-       
+           .checkbox-div input:checked+label .privacy {
+               background-color: #404bbf;
+               border: none;
+               fill: #F4F4FD;
+           }
        
      
 
@@ -711,3 +715,7 @@ list-style: none;
             margin-right: auto;
                
         }
+                 .button-order:hover,
+                 .button-order:focus {
+                     background-color: #404bbf;
+                 }
