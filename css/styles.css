@@ -663,14 +663,15 @@ list-style: none;
             align-items: center;
             justify-content: center;
             fill: transparent;
-           
+            background-color: #404bbf;
+                fill: #F4F4FD;
+                border: none;
         }
         .terms {
 
         }
         input:checked.privacy {
-            background-color: #404bbf;
-            fill: #F4F4FD;
+           
 
         }
         .chekbox-link {
