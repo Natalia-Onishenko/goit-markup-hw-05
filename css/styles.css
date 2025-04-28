@@ -688,15 +688,11 @@ list-style: none;
         
                 .checkbox-div input:checked+label .privacy {
                     background-color: #404bbf;
-                }
-        
-                .checkbox-div input:checked+label .privacy svg {
                     border: none;
-                }
-        
-                .checkbox-div input:checked+label .privacy svg use {
                     fill: #F4F4FD;
                 }
+        
+               
      
 
         
