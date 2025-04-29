@@ -725,6 +725,7 @@ list-style: none;
                  }
                  .footer-form {
                     display: flex;
+                    gap: 24px;
                  }
                  
                  .subscribe {
