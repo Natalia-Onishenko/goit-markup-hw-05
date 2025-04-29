@@ -750,6 +750,9 @@ list-style: none;
                         color: #fff;
                        
                  }
+                 .footer-input:focus {
+                    border-color: #31d0aa;
+                 }
 .footer-input::placeholder {
     color:#fff;
 }
@@ -757,11 +760,11 @@ list-style: none;
     display: flex;
     border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
         align-items: center;
             justify-content: center;
-           
+        font-weight: 500;
             gap: 16px;
             background-color: #4d5ae5;
             font-family: "Roboto", sans-serif;
@@ -773,7 +776,12 @@ list-style: none;
                 border: none;
 
 }
-.footer-svg {
 
+.footer-svg {
+margin-left: 16px;
 fill: #fff;
+}
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #31d0aa;
 }
