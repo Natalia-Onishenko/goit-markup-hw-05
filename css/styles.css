@@ -720,3 +720,59 @@ list-style: none;
                  .button-order:focus {
                      background-color: #404bbf;
                  }
+                 .footer-div {
+                    margin-left: auto;
+                 }
+                 .footer-form {
+                    display: flex;
+                 }
+                 
+                 .subscribe {
+                    font-weight: 500;
+                        font-size: 16px;
+                        line-height: 1.5;
+                            letter-spacing: 0.02em;
+                            margin-bottom: 16px;
+                            color: #FFFFFF;
+                 }
+                 .footer-input {
+                    border: 1px solid #fff;
+                    border-radius: 4px;
+                        width: 264px;
+                        height: 40px;
+                        background-color: transparent;
+                        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                        padding-left: 16px;
+                        font-size: 12px;
+                        line-height: 2;
+                        letter-spacing: 0.04em;
+                        color: #fff;
+                       
+                 }
+.footer-input::placeholder {
+    color:#fff;
+}
+.footer-button {
+    display: flex;
+    border-radius: 4px;
+        padding: 8px 24px;
+        width: 165px;
+        height: 40px;
+        align-items: center;
+            justify-content: center;
+           
+            gap: 16px;
+            background-color: #4d5ae5;
+            font-family: "Roboto", sans-serif;
+            line-height: 1.5;
+                letter-spacing: 0.04em;
+                text-align: center;
+                color: #fff;
+                cursor: pointer;
+                border: none;
+
+}
+.footer-svg {
+
+fill: #fff;
+}
